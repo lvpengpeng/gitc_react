@@ -1,0 +1,42 @@
+.jt-icon{
+    width: 0.6rem;
+    height: 0.6rem;
+    background:url(../../components/images/less.png);
+    background-size: cover;
+    display: inline-block;
+    margin-top: 0.8rem
+}
+.special-li{
+    width: 15rem;
+    height: 2rem;
+    border-bottom: 0.025rem solid #ccc;
+    font-size: 0.65rem;
+    line-height: 2rem;
+    margin: 0 0.5rem;
+}
+.rotate{
+    transform-origin:center center; 
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transition: transform 0.2s; 
+    -moz-transition: -moz-transform 0.2s; 
+    -moz-transition: -moz-transform 0.2s; 
+    -o-transition: -o-transform 0.2s; 
+    -ms-transition: -ms-transform 0.2s; 
+}
+.rotate1{
+    transform-origin:center center;
+    transform: rotate(0deg); 
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transition: transform 0.2s; 
+    -moz-transition: -moz-transform 0.2s; 
+    -moz-transition: -moz-transform 0.2s; 
+    -o-transition: -o-transform 0.2s; 
+    -ms-transition: -ms-transform 0.2s; 
+}

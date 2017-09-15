@@ -1,0 +1,112 @@
+.name {
+    width: 13.2rem;
+    height: 1.7rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.name i {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    margin: 0.3rem 0.4rem 0 0.5rem
+}
+
+.name i {
+    background: url(images/01.png);
+    background-size: cover
+}
+
+.name input {
+    display: inline-block;
+    width: 7rem;
+    height: 1rem;
+    margin-top: 0.3rem;
+    border: 0;
+    padding-left: 0.5rem;
+    font-size: 0.7rem
+}
+
+.name span {
+    display: inline-block;
+    width: 0.7rem;
+    height: 0.7rem;
+    margin-top: 0.4rem;
+    background: url(./images/03.png);
+    background-size: cover;
+    margin-left: 1.2rem;
+}
+
+
+.password {
+    width: 13.2rem;
+    height: 1.7rem;
+    border-bottom: 0.025rem solid #ccc;
+    margin: 0 auto
+}
+
+
+
+.password i {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    margin: 0.3rem 0.4rem 0 0.5rem
+}
+
+
+
+.password i {
+    background: url(./images/02.png);
+    background-size: cover
+}
+
+
+
+.password input {
+    display: inline-block;
+    width: 10rem;
+    height: 1rem;
+    margin-top: 0.3rem;
+    border: 0;
+    padding-left: 0.5rem;
+}
+
+
+
+.password span {
+    display: inline-block;
+    width: 0.7rem;
+    height: 0.7rem;
+    margin-top: 0.4rem;
+    background: url(images/03.png);
+    background-size: cover;
+}
+div .on-link input{
+  border: 0 solie red
+}
+.code-btn{
+    width:4.75rem;
+    height:1.35rem;
+    border:0.025rem solid #ffa2a8;
+    border-radius: 1rem;
+    color: #ffa2a8;
+    display: inline-block;
+    float: right;
+    font-size: 0.6rem;
+    line-height: 1.35rem;
+    text-align: center
+}
+.name .left_link{
+    width:4.75rem;
+    height:1.35rem;
+    border:0.025rem solid #ffa2a8;
+    border-radius: 1rem;
+    color: #ffa2a8;
+    display: inline-block;
+    float: right;
+    font-size: 0.6rem;
+    line-height: 1.35rem;
+    text-align: center;
+    margin-top: -0.4rem;
+    background: #fff
+}

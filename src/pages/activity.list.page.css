@@ -1,0 +1,288 @@
+/*.movie_vipim_img{
+    width:0.8rem;
+    height: 0.6rem;
+    display: inline-block;
+    background: url(../components/images/2.png);
+    background-size:cover;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    margin-top: 0.1rem
+}*/
+
+
+
+.index-banner{
+    width: 16rem;
+    height: 21.425rem;
+    background:url(../components/images/banner.png);
+    background-size: cover
+}
+
+
+/* 超小设备（手机，小于 768px） */
+/* Bootstrap 中默认情况下没有媒体查询 */
+.content{
+    width: 16rem;
+    padding: 1rem 0 0 0;
+    background: #0d1428
+}
+.highlights,.special{
+    width: 16rem;
+    color: #fff; 
+}
+.agenda-name,.highlights-name,.special-name{
+    width: 15rem;
+    height: 1.2rem;
+    font-size: 0.8rem;
+    margin: 0 auto;
+    color: #fff
+}
+.agenda-title,.highlights-title,.special-title{
+    width: 15rem;
+    margin: 0 auto;
+    color: #fff
+}
+.special-li{
+    width: 15rem;
+    height: 2rem;
+    border-bottom: 0.025rem solid #ccc;
+    font-size: 0.65rem;
+    line-height: 2rem;
+    margin: 0 0.5rem;
+}
+.special-show-font{
+    padding: 0.6rem 0.5rem;
+    font-size: 0.5rem;
+    background: #121d35;
+    width: 15rem;
+}
+
+.z{
+    transition: 1s all ease;
+    transform:rotate(180deg);
+    -ms-transform:rotate(180deg); 	/* IE 9 */
+    -moz-transform:rotate(180deg); 	/* Firefox */
+    -webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+    -o-transform:rotate(180deg); 	/* Opera */
+    }
+    .b{
+    transition: 1s all ease;
+    transform:rotate(0deg);
+    -ms-transform:rotate(0deg); 	/* IE 9 */
+    -moz-transform:rotate(0deg); 	/* Firefox */
+    -webkit-transform:rotate(0deg); /* Safari 和 Chrome */
+    -o-transform:rotate(0deg); 	/* Opera */
+    }
+
+.highlights{
+    width: 16rem;
+    color: #fff;
+    position: relative;
+    top:-3rem
+}
+.highlights-ul{
+    width: 15rem;
+    margin: 0 auto
+}
+.highlights-li{
+    width: 50%;
+    float: left;
+    height: 2.5rem;
+}
+.highlights-icon1{
+    width: 1.85rem;
+    height: 1.85rem;
+    display: inline-block;
+    background:url(../components/images/less.png);
+    background-size: cover;
+    float: left
+}
+.highlights-li div{
+    float: left
+}
+.highlights-li-font{
+    font-size: 0.7rem;
+    margin-top: 0.4rem
+}
+@keyframes change{
+    0% {
+        width: 2.125rem;
+        height: 2.125rem;
+    }
+    100% {
+        width: 2.225rem;
+       height: 2.225rem;
+    }
+    }
+    /* #loading{
+        width:2rem;
+        height:2rem;
+        position: absolute;
+        left:50%;
+        top:50%;
+        margin:-1rem;
+        background: url(../images/loading.png) no-repeat;
+        background-size:cover;
+        animation:change 2s infinite linear;
+        z-index: 9
+    } */
+.live{
+    width: 2.125rem;
+    height: 2.125rem;
+    line-height: 2.125rem;
+    text-align: center;
+    font-size: 0.7rem;
+    display: inline-block;
+    background: #0538db;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0.8rem #0538db;
+    animation:change 1s infinite linear;
+    position: fixed;
+    right: 0.5rem;
+    bottom: 6rem;
+}
+
+.look-all{
+    position: absolute;
+    right: 0.5rem;
+    top:0.8rem
+}
+.time{
+    width: 12.24rem;
+    height: 1.2rem;
+    border: 0.025rem solid #2b67ff;
+    border-radius: 0.25rem;
+    margin: 0.8rem auto
+}
+.time1{
+    display: inline-block;
+    width:6rem;
+    text-align: center;
+    line-height: 1.2rem;
+    height: 1.2rem;
+    border-right: 0.02rem solid #2b67ff;
+    color: #2b67ff;
+}
+.time2{
+    width: 6rem;
+    height: 1.2rem;
+    text-align: center;
+    line-height: 1.2rem;
+    display: inline-block;
+    color: #2b67ff;
+}
+.agenda-ul{
+    width: 15rem;
+    padding: 0.5rem;
+}
+.agenda-ul li{
+    padding: 0.2rem 0.5rem;
+    float: left;
+    background: #1b2d4c;
+    border-radius:0.4rem;
+    margin: 0.2rem 0.2rem;
+    color: #ccc
+}
+
+.cat-btn{
+    color: #fff !important
+}
+.agenda-pople li{
+    width: 15rem;
+    height: 4.5rem;
+    margin: 0 auto;
+    background: #ccc;
+    margin-top: 0.4rem;
+    border-radius:0.4rem;
+}
+.agenda-ul-toggle{
+    display: none
+}
+.agenda-pople{
+    display: none
+}
+.toggle-bg{
+    color: #fff !important;
+    background:#2b67ff !important
+}
+.btn-all{
+    border: 0.025rem solid #2b67ff;
+    border-radius:1rem;
+    font-size: 0.6rem;
+    width: 5rem;
+    height: 1.5rem;
+    margin: 2.8rem auto 0;
+    line-height: 1.5rem;
+    text-align: center;
+    display: block
+}
+.btn-all-bottom{
+    margin-bottom: 2.8rem;
+}
+.btn-all-bottoms{
+    margin-bottom: 1.6rem;
+}
+.about-me .highlights ,.maps .highlights ,.logo .highlights ,.guests-popole .highlights{
+    top:0
+}
+.about-me{
+    margin: 2.8rem 0 0.8rem 0
+}
+.title-btn{
+    border: 0.05rem solid #ccc;
+    border-radius:1rem;
+    font-size: 0.6rem;
+    width: 3.6rem;
+    height: 1rem;
+    margin: 1.2rem auto 0rem;
+    line-height: 1rem;
+    text-align: center;
+    display: block;
+    background: #215df7;
+    color: #fff
+}
+.bg-b{
+    background: url(../components/images/bg-b.png);
+    background-size: cover;
+    padding-bottom: 1rem
+}
+.guests-popole-ul li{
+    width: 4rem;
+    height: 6rem;
+    background: #ccc;
+    margin: 0.9rem 0 0 1rem ;
+    float: left;
+    border-radius: 0.2rem;
+}
+.logo-contnet p{
+   color:#fff;
+   font-size: 0.6rem;
+    margin: 0.8rem 0.5rem;
+    }
+.maps img,.logo-contnet img{
+    width: 15rem;
+    margin: 0 auto;
+    }
+.about-me p,.maps p{
+    width: 15rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    margin: 0 auto;
+    color: #fff;
+}
+.about-me .one{
+    margin-top:1rem
+    }
+.about-me{
+    position: relative
+}
+.about-me .code{
+    position: absolute;
+    bottom: -0.5rem;
+    right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    display: block;
+    background: url(../components/images/code.png);
+    background-size: cover
+}
